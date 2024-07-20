@@ -1,0 +1,163 @@
+*{
+    font-family: 'roboto',sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-basis: auto;
+    flex-direction: column;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.first.subdiv{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    justify-content: center;
+    height: max-content;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.secondary{
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+.first.subdiv .image{
+    width: 40%;
+    background-color: #626d7c;
+    flex: auto;
+    height: 70%;
+    padding: 10%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.header, .first.subdiv{
+    background-color: #1F2937;
+    color: white;
+}
+
+
+
+.header, .footer{
+    flex: 0;
+}
+.subdiv{
+    flex-basis: auto;
+    display: flex;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 36px; 
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.subdiv.two{
+    flex-direction: column;
+    flex: 0;
+    margin: 5vh 0;
+    align-items: center;
+    gap:5vh;
+    padding-bottom: 5vh;
+}
+
+.subdiv #title{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+.cards{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    width: min-content;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imgspc{
+    flex: auto;
+    height: 20vh;
+    width: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .subtext{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+    font-weight:bold;
+}
+
+img{
+    height: auto;
+    width: 60%;
+}
+
