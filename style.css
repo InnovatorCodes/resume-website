@@ -137,6 +137,14 @@ a{
     width: min-content;
     flex-wrap: wrap;
     gap: 10px;
+    border: 2px solid black;
+    box-shadow: 0 3px 5px rgb(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.card:active{
+    box-shadow: none;
+    transform: scale3d(0.98,0.98,0.98);
 }
 
 .imgspc{
