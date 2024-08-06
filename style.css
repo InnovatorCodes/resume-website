@@ -137,9 +137,8 @@ a{
     display: flex;
     flex-direction: column;
     flex: 0;
-    width: min-content;
+    height: max-content;
     flex-wrap: wrap;
-    gap: 10px;
     border: 2px solid black;
     box-shadow: 0 3px 5px rgb(0,0,0,0.6);
     border-radius: 10px;
@@ -152,12 +151,14 @@ a{
 
 .imgspc{
     flex: auto;
-    height: 20vh;
-    width: 20vh;
+    height: max(20vh,120px);
+    width: max(20vh,120px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 
 .card .subtext{
